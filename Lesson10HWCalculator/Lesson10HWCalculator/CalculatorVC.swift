@@ -1,10 +1,3 @@
-//
-//  CalculatorVC.swift
-//  Lesson10HWCalculator
-//
-//  Created by Виктор Реут on 28.02.24.
-//
-
 import UIKit
 
 enum Operation {
@@ -13,22 +6,11 @@ enum Operation {
     case minus
     case multiplication
     case division
-    case fraction
 }
 
 class CalculatorVC: UIViewController {
-
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var oneButton: UIButton!
-    @IBOutlet weak var twoButton: UIButton!
-    @IBOutlet weak var threeButton: UIButton!
-    @IBOutlet weak var fourButton: UIButton!
-    @IBOutlet weak var fiveButton: UIButton!
-    @IBOutlet weak var sixButton: UIButton!
-    @IBOutlet weak var sevenButton: UIButton!
-    @IBOutlet weak var eightButton: UIButton!
-    @IBOutlet weak var nineButton: UIButton!
-    @IBOutlet weak var nullButton: UIButton!
     @IBOutlet weak var fractionButton: UIButton!
     @IBOutlet weak var equalsButton: UIButton!
     @IBOutlet weak var plusButton: UIButton!
@@ -37,12 +19,11 @@ class CalculatorVC: UIViewController {
     @IBOutlet weak var divideButton: UIButton!
     
     var state: Operation = .none
-    var firstValue: Int = 0
-    var secondValue: Int = 0
+    var firstValue: Double = 0
+    var secondValue: Double = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
     
     @IBAction func sendValue(_ sender: UIButton) {
@@ -51,10 +32,9 @@ class CalculatorVC: UIViewController {
         resultLabel.text = value
     }
     
-    
     @IBAction func resultAction(_ sender: UIButton) {
         guard let value = resultLabel.text else { return }
-        secondValue = Int(value) ?? 0
+        secondValue = Double(value) ?? 0
         
         switch state {
         case .sum:
@@ -69,47 +49,46 @@ class CalculatorVC: UIViewController {
         case .division:
             let result = Double(firstValue) / Double(secondValue)
             resultLabel.text = "\(result)"
-        case .fraction:
-            let result = Double("\(firstValue).\(secondValue)") //?
-            resultLabel.text = "\(result)"
         default:
             break
         }
     }
     
     @IBAction func sumOperation(_ sender: UIButton) {
+    
         guard let value = resultLabel.text else { return }
-        firstValue = Int(value) ?? 0
+        firstValue = Double(value) ?? 0
         state = .sum
         resultLabel.text = ""
+        
     }
     
     @IBAction func minusOperation(_ sender: UIButton) {
         guard let value = resultLabel.text else { return }
-        firstValue = Int(value) ?? 0
+        firstValue = Double(value) ?? 0
         state = .minus
         resultLabel.text = ""
     }
     
-    @IBAction func subsctractionOperation(_ sender: UIButton) {
+    @IBAction func multiplicationOperation(_ sender: UIButton) {
         guard let value = resultLabel.text else { return }
-        firstValue = Int(value) ?? 0
+        firstValue = Double(value) ?? 0
         state = .multiplication
         resultLabel.text = ""
     }
     
     @IBAction func divisionOperation(_ sender: UIButton) {
         guard let value = resultLabel.text else { return }
-        firstValue = Int(value) ?? 0
+        firstValue = Double(value) ?? 0
         state = .division
         resultLabel.text = ""
     }
     
     @IBAction func fractionOperation(_ sender: UIButton) {
-        guard let value = resultLabel.text else { return }
-        firstValue = Int(value) ?? 0
-        resultLabel.text = "\(value)."
-        state = .fraction
+        if !(resultLabel.text?.contains(".") ?? false) {
+            guard let value = resultLabel.text else { return }
+            resultLabel.text = "\(value)."
+        }
     }
-    
 }
+

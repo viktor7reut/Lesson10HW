@@ -41,7 +41,7 @@
                                                     <color key="baseForegroundColor" red="0.95833218220000005" green="0.95833218220000005" blue="0.95833218220000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="sendValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EmZ-iI-TUP"/>
+                                                    <action selector="sendValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y9x-vz-eJA"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fq0-eN-Yry">
@@ -54,7 +54,7 @@
                                                     <color key="baseForegroundColor" red="0.95833218220000005" green="0.95833218220000005" blue="0.95833218220000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="sendValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dkW-Nk-JVq"/>
+                                                    <action selector="sendValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pgN-3h-uG9"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bgu-ws-KhU">
@@ -67,7 +67,7 @@
                                                     <color key="baseForegroundColor" red="0.95833218220000005" green="0.95833218220000005" blue="0.95833218220000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="sendValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iJe-0m-8Nf"/>
+                                                    <action selector="sendValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u0z-6M-wnf"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xb5-TN-xYT">
@@ -80,7 +80,7 @@
                                                     <color key="baseForegroundColor" red="0.95833218220000005" green="0.95833218220000005" blue="0.95833218220000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="divisionOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h8Z-0Q-WY9"/>
+                                                    <action selector="divisionOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1N0-rf-y9v"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -97,7 +97,7 @@
                                                     <color key="baseForegroundColor" red="0.95833218220000005" green="0.95833218220000005" blue="0.95833218220000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="sendValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NU6-XS-rbh"/>
+                                                    <action selector="sendValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xfs-4a-ln8"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBm-CK-XPA">
@@ -109,7 +109,7 @@
                                                     <color key="baseForegroundColor" red="0.95833218220000005" green="0.95833218220000005" blue="0.95833218220000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="sendValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mjy-pB-6uU"/>
+                                                    <action selector="sendValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DAD-Hl-iQl"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8wb-pR-izW">
@@ -121,7 +121,7 @@
                                                     <color key="baseForegroundColor" red="0.95833218220000005" green="0.95833218220000005" blue="0.95833218220000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="sendValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zu2-H4-UgX"/>
+                                                    <action selector="sendValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mbb-9J-NcF"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpf-nf-dAm">
@@ -133,7 +133,7 @@
                                                     <color key="baseForegroundColor" red="0.95833218220000005" green="0.95833218220000005" blue="0.95833218220000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="subsctractionOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LvB-Lz-faz"/>
+                                                    <action selector="multiplicationOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZUy-KP-83K"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -150,7 +150,7 @@
                                                     <color key="baseForegroundColor" red="0.95833218220000005" green="0.95833218220000005" blue="0.95833218220000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="sendValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EgU-3P-Kxk"/>
+                                                    <action selector="sendValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nl2-gI-gHZ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxd-hR-DSg">
@@ -162,7 +162,7 @@
                                                     <color key="baseForegroundColor" red="0.95833218220000005" green="0.95833218220000005" blue="0.95833218220000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="sendValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m6b-Te-gUn"/>
+                                                    <action selector="sendValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mYG-n3-YwV"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdK-Vz-RNq">
@@ -174,7 +174,7 @@
                                                     <color key="baseForegroundColor" red="0.95833218220000005" green="0.95833218220000005" blue="0.95833218220000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="sendValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fBx-Hx-eBa"/>
+                                                    <action selector="sendValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FHf-TH-ZwP"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="si6-pO-UiH">
@@ -186,7 +186,7 @@
                                                     <color key="baseForegroundColor" red="0.95833218220000005" green="0.95833218220000005" blue="0.95833218220000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="minusOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zGq-YW-hnT"/>
+                                                    <action selector="minusOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N7k-Fq-EyF"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -203,7 +203,7 @@
                                                     <color key="baseForegroundColor" red="0.95833218220000005" green="0.95833218220000005" blue="0.95833218220000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="fractionOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vPc-Fn-qwi"/>
+                                                    <action selector="fractionOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5JP-8p-45F"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ra7-af-nPe">
@@ -215,7 +215,7 @@
                                                     <color key="baseForegroundColor" red="0.95833218220000005" green="0.95833218220000005" blue="0.95833218220000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="sendValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ssP-Og-7jQ"/>
+                                                    <action selector="sendValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KXd-e4-M0I"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8x-6t-ONj">
@@ -227,7 +227,7 @@
                                                     <color key="baseForegroundColor" red="0.95833218220000005" green="0.95833218220000005" blue="0.95833218220000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="resultAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6e8-89-MsH"/>
+                                                    <action selector="resultAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vg4-GC-5Hv"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H05-NU-gZc">
@@ -239,7 +239,7 @@
                                                     <color key="baseForegroundColor" red="0.95833218220000005" green="0.95833218220000005" blue="0.95833218220000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="sumOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2lz-YQ-ePX"/>
+                                                    <action selector="sumOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cPz-CO-dc1"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -260,23 +260,14 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="divideButton" destination="Xb5-TN-xYT" id="SZH-DN-kul"/>
-                        <outlet property="eightButton" destination="dxd-hR-DSg" id="zjT-RQ-AGI"/>
-                        <outlet property="equalsButton" destination="B8x-6t-ONj" id="ce2-UC-LIr"/>
-                        <outlet property="fiveButton" destination="qBm-CK-XPA" id="E11-5A-wu7"/>
-                        <outlet property="fourButton" destination="d1v-J6-cNb" id="ZQD-0x-awT"/>
-                        <outlet property="fractionButton" destination="3Nv-od-HII" id="Ufu-Ak-Mvw"/>
-                        <outlet property="minusButton" destination="si6-pO-UiH" id="0qQ-Xe-h6I"/>
-                        <outlet property="multiplyButton" destination="gpf-nf-dAm" id="Nd1-XE-7DK"/>
-                        <outlet property="nineButton" destination="zdK-Vz-RNq" id="uZ0-zJ-voG"/>
-                        <outlet property="nullButton" destination="Ra7-af-nPe" id="wUN-0n-ZQr"/>
-                        <outlet property="oneButton" destination="t8M-eE-IDm" id="Ncs-Bq-Z6A"/>
-                        <outlet property="plusButton" destination="H05-NU-gZc" id="hw5-Uz-0cx"/>
-                        <outlet property="resultLabel" destination="wC0-Oe-Zc4" id="OGG-s8-mE8"/>
-                        <outlet property="sevenButton" destination="dxd-hR-DSg" id="NFq-lg-WXA"/>
-                        <outlet property="sixButton" destination="8wb-pR-izW" id="ekS-Qk-OvC"/>
-                        <outlet property="threeButton" destination="Bgu-ws-KhU" id="JeM-FH-eNq"/>
-                        <outlet property="twoButton" destination="Fq0-eN-Yry" id="hYR-9e-bph"/>
+                        <outlet property="divideButton" destination="Xb5-TN-xYT" id="INl-gy-2kf"/>
+                        <outlet property="equalsButton" destination="B8x-6t-ONj" id="A7C-7F-zOn"/>
+                        <outlet property="fractionButton" destination="3Nv-od-HII" id="01K-7a-P9O"/>
+                        <outlet property="minusButton" destination="si6-pO-UiH" id="fpg-0T-Oio"/>
+                        <outlet property="multiplyButton" destination="gpf-nf-dAm" id="JPr-Qy-tv4"/>
+                        <outlet property="oneButton" destination="Ra7-af-nPe" id="LQE-k3-Wpz"/>
+                        <outlet property="plusButton" destination="H05-NU-gZc" id="udf-Wd-ZjR"/>
+                        <outlet property="resultLabel" destination="wC0-Oe-Zc4" id="gRd-4C-0UE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
