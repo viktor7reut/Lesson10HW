@@ -32,6 +32,14 @@ class CalculatorVC: UIViewController {
         resultLabel.text = value
     }
     
+    func updateResultLabel(_ result: Double) {
+        if result.truncatingRemainder(dividingBy: 1) == 0 {
+            resultLabel.text = "\(Int(result))"
+        } else {
+            resultLabel.text = "\(result)"
+        }
+    }
+    
     @IBAction func resultAction(_ sender: UIButton) {
         guard let value = resultLabel.text else { return }
         secondValue = Double(value) ?? 0
@@ -39,17 +47,17 @@ class CalculatorVC: UIViewController {
         switch state {
         case .sum:
             let result = firstValue + secondValue
-            resultLabel.text = "\(result)"
+            updateResultLabel(result)
         case .minus:
             let result = firstValue - secondValue
-            resultLabel.text = "\(result)"
+            updateResultLabel(result)
         case .multiplication:
             let result = firstValue * secondValue
-            resultLabel.text = "\(result)"
+            updateResultLabel(result)
         case .division:
             let result = Double(firstValue) / Double(secondValue)
-            resultLabel.text = "\(result)"
-        default:
+            updateResultLabel(result)
+        case .none:
             break
         }
     }
